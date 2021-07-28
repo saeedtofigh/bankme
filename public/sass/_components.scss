@@ -1,0 +1,56 @@
+
+.auth--label{
+  font-weight: 500;
+  display: block;
+  position: absolute;
+  top: -35%;
+  right: 1rem;
+  color: #edd8be;
+  transition: top ease 500ms;
+  height: 1rem;
+
+  &-active{
+    position: absolute;
+    color: $pale-silver;
+    font-weight: 300;
+    top: 15%;
+    right: 1rem;
+    height: 0;
+
+  }
+
+
+}
+
+.auth--input{
+  padding: 5px;
+  border: 1px solid #eee;
+  outline: none;
+  height: 2rem;
+  border-radius: 8px;
+  width: 100%;
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button{
+    display: none;
+  }
+  &:focus{
+    border-color: $melon;
+  }
+
+  &-success{
+    border-color: #006a6c;
+  }
+}
+.btn{
+  outline: none;
+  font-weight: 700;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.btn-submit{
+  display: block;
+  background-color: #006a6c;
+  color: #fff;
+  margin-top: 1rem;
+}
