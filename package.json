@@ -1,0 +1,22 @@
+{
+  "name": "saeidbank",
+  "version": "1.0.0",
+  "description": "bank prj ",
+  "main": "index.js",
+  "scripts": {
+    "w": "node-sass ./public/sass/main.scss ./public/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saeidTofigh/bankme.git"
+  },
+  "author": "Saeid Tofigh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saeidTofigh/bankme/issues"
+  },
+  "homepage": "https://github.com/saeidTofigh/bankme#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
